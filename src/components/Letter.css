@@ -1,0 +1,29 @@
+.letter-box {
+	padding: 0.5rem;
+	font-size: 1rem;
+	border: 1px solid rgb(154, 229, 248);
+	background: rgb(234, 251, 255);
+	width: 1rem;
+	text-align: center;
+	margin: 0.25rem;
+	cursor: pointer;
+}
+
+.disabled {
+	cursor: default;
+	color: rgb(173, 172, 172);
+}
+
+@media (min-width: 775px) {
+	.letter-box {
+		font-size: 1.5rem;
+		width: 1.5rem;
+	}
+}
+
+@media (min-width: 576px) {
+	.letter-box {
+		font-size: 1.25rem;
+		width: 1.25rem;
+	}
+}

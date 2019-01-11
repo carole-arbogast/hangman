@@ -1,0 +1,34 @@
+.dialog-container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.visible-box {
+	visibility: visible;
+	transition-delay: 0.6s;
+}
+
+.dialog-box {
+	width: 25em;
+	height: 15em;
+	border: solid black 1px;
+	margin-top: 10em;
+	background: white;
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.dialog-box i {
+	font-size: 1.5rem;
+	color: black;
+	align-self: flex-end;
+	cursor: pointer;
+}

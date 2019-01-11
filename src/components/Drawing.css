@@ -1,0 +1,149 @@
+.drawing {
+	margin: auto;
+}
+
+.drawing-line {
+	background: transparent;
+}
+
+.vertical {
+	display: flex;
+}
+
+.hanging {
+	display: flex;
+	flex-direction: column;
+	margin-left: 6.75em;
+}
+
+.person {
+	transform: translate(2.25em);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.legs {
+	display: flex;
+	justify-content: center;
+	transform: translate(0.5px, -3px);
+}
+
+.visible {
+	background: rgb(26, 25, 25);
+}
+
+.head {
+	background: transparent;
+	border: 3px black solid;
+}
+
+#guess-1 {
+	height: 4px;
+	width: 8em;
+	transform: translate(-20%);
+}
+
+#guess-2 {
+	height: 15em;
+	width: 4px;
+}
+
+#guess-3 {
+	height: 4px;
+	width: 12em;
+}
+
+#guess-4 {
+	height: 2em;
+	width: 4px;
+	align-self: flex-end;
+}
+
+#guess-5 {
+	height: 2em;
+	width: 2em;
+	border-radius: 50%;
+}
+
+#guess-6 {
+	height: 4em;
+	width: 3px;
+}
+
+#guess-7 {
+	height: 4em;
+	width: 3px;
+	transform: rotate(30deg);
+	transform-origin: top right;
+}
+
+#guess-8 {
+	height: 4em;
+	width: 3px;
+	transform: rotate(-30deg);
+	transform-origin: top left;
+}
+
+#guess-9 {
+	height: 3px;
+	width: 5em;
+	transform: translate(0, -2.5em);
+}
+
+@media (min-width: 768px) {
+	.drawing {
+		margin: 0 2rem 0 4rem;
+	}
+	.hanging {
+		margin-left: 9.75em;
+	}
+
+	.person {
+		transform: translate(2.25em);
+	}
+	#guess-1 {
+		width: 10em;
+	}
+
+	#guess-2 {
+		height: 25em;
+	}
+
+	#guess-3 {
+		width: 15em;
+	}
+
+	#guess-4 {
+		height: 3em;
+	}
+
+	#guess-5 {
+		height: 3em;
+		width: 3em;
+	}
+
+	#guess-6 {
+		height: 5em;
+	}
+
+	#guess-7 {
+		height: 5em;
+		width: 3px;
+		transform: rotate(30deg);
+		transform-origin: top right;
+	}
+
+	#guess-8 {
+		height: 5em;
+		width: 3px;
+		transform: rotate(-30deg);
+		transform-origin: top left;
+	}
+
+	#guess-9 {
+		height: 3px;
+		width: 5em;
+		transform: translate(0, -2.5em);
+	}
+}

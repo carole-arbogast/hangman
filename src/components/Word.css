@@ -1,0 +1,14 @@
+.word {
+	display: flex;
+	max-width: 95vw;
+	height: 2rem;
+	margin: 1.5rem 0 1.5rem 0;
+}
+
+.letter {
+	width: 2rem;
+	border-bottom: 2px rgb(71, 71, 71) solid;
+	margin: 0rem 0.5rem 0 0.5rem;
+	text-align: center;
+	font-size: 1.5rem;
+}

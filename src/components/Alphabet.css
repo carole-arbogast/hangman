@@ -1,0 +1,12 @@
+.alphabet {
+	display: flex;
+	flex-wrap: wrap;
+	align-self: center;
+	width: 95vw;
+}
+
+@media (min-width: 576px) {
+	.alphabet {
+		width: 30em;
+	}
+}

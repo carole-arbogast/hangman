@@ -11,8 +11,6 @@
 	flex-direction: column;
 	justify-content: center;
 	position: absolute;
-	padding: 3rem;
-	margin-top: 2rem;
 }
 
 .word-area {
@@ -32,7 +30,6 @@
 		flex-direction: row;
 		justify-content: space-around;
 		width: 100%;
-		margin: 2rem;
 	}
 
 	.word-area {

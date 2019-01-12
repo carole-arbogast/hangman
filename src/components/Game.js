@@ -172,7 +172,6 @@ export class Game extends Component {
 		const { displayLevels } = this.props;
 		return (
 			<div className="game-container">
-				<h1>Hangman</h1>
 				<div className="game">
 					<div className="drawing-area">
 						<p>

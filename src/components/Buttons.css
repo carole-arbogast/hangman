@@ -1,0 +1,23 @@
+.blue-btn {
+	background: rgb(170, 235, 252);
+	border: none;
+	border-radius: 5px;
+	padding: 0.5rem;
+	box-shadow: 1px 1px 1px grey;
+	color: rgb(73, 73, 73);
+}
+
+.blue-btn:hover {
+	background: rgb(154, 229, 248);
+}
+
+.blue-btn:active {
+	background: rgb(154, 229, 248);
+	transform: translate(1px, 1px);
+}
+
+@media (min-width: 768px) {
+	.blue-btn {
+		font-size: 1.25rem;
+	}
+}

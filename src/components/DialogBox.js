@@ -1,5 +1,6 @@
 import React from "react";
 import "./DialogBox.css";
+import "./Buttons.css";
 
 function DialogBox(props) {
 	const {
@@ -18,11 +19,22 @@ function DialogBox(props) {
 			}`}
 		>
 			<div className="dialog-box">
-				<i class="fas fa-times-circle" onClick={() => hideBox()} />
+				<i className="fas fa-times-circle" onClick={() => hideBox()} />
 				<h1>{message}</h1>
-				<h4>The word was: {currentWord}</h4>
-				<button onClick={() => playAgain()}>Play Again</button>
-				<button onClick={() => displayLevels()}>Change Level</button>
+				<h4>
+					The word was: <span>{currentWord}</span>
+				</h4>
+				<div className="options">
+					<button className="blue-btn" onClick={() => playAgain()}>
+						Play Again
+					</button>
+					<button
+						className="blue-btn"
+						onClick={() => displayLevels()}
+					>
+						Change Level
+					</button>
+				</div>
 			</div>
 		</div>
 	);

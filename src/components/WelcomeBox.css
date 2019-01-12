@@ -1,0 +1,43 @@
+.welcome-box-wrapper {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.welcome-box {
+	width: 20em;
+	height: 30em;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hangman-img {
+	width: 85%;
+}
+
+.levels-list {
+	display: flex;
+	justify-content: space-around;
+}
+
+.pick-level {
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.hangman-img {
+		width: 45%;
+	}
+	.welcome-box {
+		flex-direction: row;
+		width: 40em;
+		align-items: flex-start;
+		justify-content: center;
+	}
+	.pick-level {
+		width: 50%;
+		margin-left: 2rem;
+	}
+}

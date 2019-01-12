@@ -1,16 +1,36 @@
 import React from "react";
+import "./WelcomeBox.css";
+import "./Buttons.css";
+import Hangman from "../hangman.png";
 
 function WelcomeBox(props) {
 	return (
-		<div className="box-wrapper">
+		<div className="welcome-box-wrapper">
 			<div className="welcome-box">
-				<h1>Welcome! </h1>
-				<h3>Choose your difficulty level: </h3>
-				<ul>
-					<li onClick={() => props.pickLevel("easy")}>Easy</li>
-					<li onClick={() => props.pickLevel("medium")}>Medium</li>
-					<li onClick={() => props.pickLevel("hard")}>Hard</li>
-				</ul>
+				<img className="hangman-img" src={Hangman} alt="" />
+				<div className="pick-level">
+					<h3>Pick your level </h3>
+					<div className="levels-list">
+						<button
+							className="blue-btn"
+							onClick={() => props.pickLevel("easy")}
+						>
+							Easy
+						</button>
+						<button
+							className="blue-btn"
+							onClick={() => props.pickLevel("medium")}
+						>
+							Medium
+						</button>
+						<button
+							className="blue-btn"
+							onClick={() => props.pickLevel("hard")}
+						>
+							Hard
+						</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	);

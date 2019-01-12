@@ -25,6 +25,7 @@ class App extends Component {
 		const { level, welcomeBox } = this.state;
 		return (
 			<div className="App">
+				<h1>Hangman</h1>
 				{(welcomeBox && (
 					<WelcomeBox pickLevel={this.handlePickLevel} />
 				)) || (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Buttons.css";
+import "../Buttons.css";
 import "./Options.css";
 
 function Options(props) {

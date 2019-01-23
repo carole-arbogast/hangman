@@ -1,6 +1,6 @@
 import React from "react";
 import "./DialogBox.css";
-import "./Buttons.css";
+import "../Buttons.css";
 
 function DialogBox(props) {
 	const {

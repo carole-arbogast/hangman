@@ -1,7 +1,7 @@
 import React from "react";
 import "./WelcomeBox.css";
-import "./Buttons.css";
-import Hangman from "../hangman.png";
+import "../Buttons.css";
+import Hangman from "./hangman.png";
 
 function WelcomeBox(props) {
 	return (
